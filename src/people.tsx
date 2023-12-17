@@ -15,7 +15,7 @@ const People: React.FC<PeopleProps> = ({ people }) => {
       <h2>People List</h2>
       <ul>
         {people.map((person, index) => (
-          <li key={index}>
+            <li key={index}>
             <strong>Name:</strong> {person.name}, <strong>Country:</strong> {person.country}
           </li>
         ))}
