@@ -32,4 +32,19 @@ function App() {
   )
 }
 
+const App: React.FC = () => {
+  const peopleData = [
+    { name: 'Abhinav', country: 'India' },
+    { name: 'Rahul', country: 'Australia' },
+    { name: 'Mark', country: 'U.S' },
+  ];
+
+  return (
+    <div>
+      <h1>My App</h1>
+      <People people={peopleData} />
+    </div>
+  );
+};
+
 export default App
